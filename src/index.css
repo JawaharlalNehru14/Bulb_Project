@@ -1,0 +1,40 @@
+.switch{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.on{  
+       padding: 20px 10px;
+       color: white;
+       border-bottom: 1px solid wheat;
+       transition: background-color 0.6s ease, box-shadow 0.6s ease;
+}
+.off{  
+    padding: 20px 10px;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid wheat;
+    background-color: yellow;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: background-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+.bulb {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 25%;
+    height: 50%;
+   border: 1px solid black;
+   border-radius: 10px;
+   transition: background-color 0.6s ease, box-shadow 0.6s ease;
+  }
+  .bulb p{
+    position: relative;
+    text-align: center;
+    top: 35%;
+    font-size: larger;
+    font-weight: 600;
+  }
